@@ -119,7 +119,7 @@ def yayanxd():
     kontol = raw_input('\n %s[%s?%s] Past Token :%s '%(N,M,N,H))
     if kontol in ('open', 'Open', 'OPEN'):
         raw_input(' %s*%s Press Enter '%(O,N))
-        os.system('xdg-open https://www.facebook.com/unknownXX007')
+        os.system('xdg-open https://www.facebook.com/ham143mah')
         yayanxd()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
@@ -128,7 +128,7 @@ def yayanxd():
         print ' %s*%s ｡☆✼★━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━★✼☆｡'%(O,N);time.sleep(2)
         open('.memek.txt', 'w').write(kontol)
         raw_input(' %s*%s Click Enter '%(O,N));wuhan(kontol)
-        os.system('xdg-open https://www.facebook.com/unknownXX007')
+        os.system('xdg-open https://www.facebook.com/ham143mah')
         moch_yayan()
     except KeyError:
         print '\n\n %s[%s!%s] TOKEN-EXPIRE (PAST HERE TOKEN) BRO'%(N,M,N);time.sleep(2);yayanxd()
