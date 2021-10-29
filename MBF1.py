@@ -152,7 +152,6 @@ def moch_yayan():
     print '｡☆✼★━━━━━━━━━━━━━━━━━━━★✼☆｡\n';time.sleep(0.03)
     print ' \033[0;92m(✔︎)\033[0;92m ACTIVE USER : %s'%(nama);time.sleep(0.03)
     print ' \033[0;92m(✔︎)\033[0;92m IP DEVICE   : %s'%(IP)
-print ' \033[0;93mNOTE:FIRST DUMP ID THEN SELECT OPTION 5'
     print '｡☆✼★━━━━━━━━━━━━━━━━━━━★✼☆｡\n';time.sleep(0.03) 
     print ' [%s1%s]. Dump id of friends'%(O,N);time.sleep(0.03)
     print ' [%s2%s]. Dump id of public friend'%(O,N );time.sleep(0.03)
